@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Engineering Common Materials</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1>Engineering Common Materials</h1>
+    <p>Inventory Management System</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="top-bar">
+        <input type="text" placeholder="Search materials by specification, name, or item number..." />
+        <button class="add-btn"><i class="fa fa-plus"></i> Add New Material</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ITEM #</th>
+            <th>MATERIAL NAME</th>
+            <th>SPECIFICATIONS</th>
+            <th class="center">IN STOCK</th>
+            <th class="center">OUT STOCK</th>
+            <th class="center">REMAINING</th>
+            <th class="center">ACTIONS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>000010</td>
+            <td>Portland Cement</td>
+            <td>Type I/II, ASTM C150, 94lb bags</td>
+            <td class="green center">500</td>
+            <td class="red center">150</td>
+            <td class="blue center">350</td>
+            <td class="center actions">
+              <i class="fa fa-retweet"></i>
+              <i class="fa fa-pen"></i>
+              <i class="fa fa-trash"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>000011</td>
+            <td>Structural Steel Beams</td>
+            <td>W8×31, ASTM A992, Grade 50, 20ft lengths</td>
+            <td class="green center">75</td>
+            <td class="red center">25</td>
+            <td class="blue center">50</td>
+            <td class="center actions">
+              <i class="fa fa-retweet"></i>
+              <i class="fa fa-pen"></i>
+              <i class="fa fa-trash"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>000012</td>
+            <td>Rebar</td>
+            <td>#4 (1/2") Grade 60, ASTM A615, 20ft lengths, deformed</td>
+            <td class="green center">300</td>
+            <td class="red center">120</td>
+            <td class="blue center">180</td>
+            <td class="center actions">
+              <i class="fa fa-retweet"></i>
+              <i class="fa fa-pen"></i>
+              <i class="fa fa-trash"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
